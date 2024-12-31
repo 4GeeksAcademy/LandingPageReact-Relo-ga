@@ -12,12 +12,14 @@ import Footer from "./footer";
 const Home = () => {
 	return (
 		<>
-			<Navbar />
-			<div className="container">
-				<Jumbotron />
-				<Card />
+			<div className="d-flex flex-column min-vh-100">
+				<Navbar />
+				<div className="container">
+					<Jumbotron />
+					<Card />
+				</div>
+				<Footer/>
 			</div>
-			<Footer/>
 		</>
 		
 	);
