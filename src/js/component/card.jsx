@@ -5,7 +5,7 @@ const Card = () =>{
     const generateCard=()=>{
         const listCard = Array(4).fill("");
         const pintarCard = listCard.map(item =>
-                <div className="card col-2 mt-3 text-center mx-auto" style={{width:'300px'}}>
+                <div className="card col-2 mt-3 text-center mx-auto" style={{width:'250px'}}>
                     <img src= "https://picsum.photos/seed/picsum/200/300" className="card-img-top" alt="..." style={{ height:'200px', objectFit:'cover' }}/>
                     <div className="card-body">
                         <h5 className="card-title">Card title</h5>
